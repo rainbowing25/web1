@@ -1,0 +1,43 @@
+a {
+  color: black;
+  text-decoration:none;
+}
+h1 {
+font-size:250%;
+text-align:center;
+margin: 0;
+border-bottom: 1px gray solid;
+padding: 20px;
+}
+img {
+max-width: 100%;
+width: 600px;
+}
+.now{
+  color:skyblue;
+}
+#grid{
+  display:grid;
+  grid-template-columns: 220px 1fr;
+}
+#navigator{
+  border-right: 1px gray solid;
+  width: 220px;
+}
+#article{
+  margin:0;
+  padding-left: 30px;
+}
+@media(max-width:800px){
+  #grid{
+    display:block;
+    }
+  #navigator{
+    border-right: none;
+    }
+  h1 {
+  font-size:250%;
+  text-align:center;
+  border-bottom: none;
+    }
+}
